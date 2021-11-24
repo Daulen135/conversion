@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="menu">
+        <a class="active" href="index.html">Home</a>
+    </div>
+    <div id = 'FahrenheitToCelsius'>
+        <p> Formula °C =(°F - 32)/1.8 
+        </p>
+        <p> In the Fahrenheit scale, water freezes at 32 degrees, and boils at 212 degrees. Boiling and freezing point are therefore 180 degrees apart. Normal body temperature is considered to be 98.6 °F (in real-life it fluctuates around this value). Absolute zero is defined as -459.67°F.</p>
+        <p>The Celsius scale is nowadays set in such a way that Zero degrees C is the temperature at which ice melts (note : not the temperature at which it freezes, which is different!) . At the other end of the scale, 100 degrees Celsius is the boiling point of water.</p>
+    </div>
+    <script>
+   let value = prompt("Enter Temperature in Fahrenheit");
+    alert('Temperature in Celcius'+ ' = ' + (parseInt(value)-32)/1.8);  
+
+    </script>
+</body>
+</html>
