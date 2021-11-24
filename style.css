@@ -32,6 +32,11 @@ ul {
   li:last-child {
     border-bottom: none;
   }
+  
+  h3{
+   
+    float: left;
+  }
  
 #menu{
 
